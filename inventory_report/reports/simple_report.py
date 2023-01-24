@@ -5,8 +5,8 @@ class SimpleReport:
     def __init__(self):
         pass
     
-    @classmethod
-    def generate(self, inventory: list):
+    @staticmethod
+    def generate(inventory: list):
 
         production_date = min([item["data_de_fabricacao"] for item in inventory])
 
