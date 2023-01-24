@@ -1,3 +1,4 @@
+# initial commit - plus ultra.
 import sys
 from inventory_report.importer.csv_importer import CsvImporter
 from inventory_report.importer.xml_importer import XmlImporter
@@ -20,6 +21,4 @@ def main():
 
     data = inventory.import_data(file, type)
 
-
     return print(data, end="")
-# initial commit - plus ultra.
